@@ -1,0 +1,76 @@
+{
+  "name": "Pengerang",
+  "facility_size_acres": 10.0,
+  "facility_size_meters": 40470.0,
+  "description": "",
+  "canvas_width_m": 201.17156856772777,
+  "canvas_height_m": 201.17156856772777,
+  "production_config": {
+    "facility_type": "Oil & Gas Refinery",
+    "crude_throughput_bbl_day": 300000,
+    "power_capacity_kw": 100000,
+    "load_factor_pct": 75,
+    "operating_hours_day": 24
+  },
+  "production_configured": true,
+  "equipment": [
+    {
+      "equipment": {
+        "id": "1bf4bdbd-9cc9-4f7b-bf14-61a23e97c652",
+        "name": "Heater",
+        "category": "Utility",
+        "power_rate_kw": 300.0,
+        "operation_time_hours": 4000.0,
+        "fuel_type": "Electric",
+        "fuel_consumption_rate": 0.0,
+        "description": "Utility heater",
+        "icon": "\u25c6"
+      },
+      "x_position": 200.0,
+      "y_position": 200.0
+    },
+    {
+      "equipment": {
+        "id": "01ac1294-9728-4198-8c8f-abb82699d066",
+        "name": "Storage Tank",
+        "category": "Non-Combustion",
+        "power_rate_kw": 0.0,
+        "operation_time_hours": 0.0,
+        "fuel_type": "None",
+        "fuel_consumption_rate": 0.0,
+        "description": "Product storage tank",
+        "icon": "\u25a3"
+      },
+      "x_position": 110.0,
+      "y_position": 110.0
+    }
+  ],
+  "summary": {
+    "total_equipment": 2,
+    "total_co2_kg": 0.0,
+    "total_crude_processing_bbl_day": 120.03667787379477,
+    "total_crude_processing_tonnes_year": 5962.701936702882,
+    "facilities_efficiency": 0.0,
+    "by_category": {
+      "Utility": {
+        "count": 1,
+        "co2_kg": 0.0
+      },
+      "Non-Combustion": {
+        "count": 1,
+        "co2_kg": 0.0
+      }
+    },
+    "by_fuel_type": {
+      "Electric": {
+        "count": 1,
+        "co2_kg": 0.0
+      },
+      "None": {
+        "count": 1,
+        "co2_kg": 0.0
+      }
+    }
+  },
+  "last_modified": "2025-11-13T13:37:09.308383"
+}

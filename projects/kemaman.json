@@ -1,0 +1,20 @@
+{
+  "name": "Kemaman",
+  "description": "",
+  "facility_size_acres": 10.0,
+  "facility_size_meters": 40470.0,
+  "created_date": "2025-11-06T08:20:45.491173",
+  "last_modified": "2025-11-06T08:21:23.768527",
+  "equipment": [],
+  "canvas_config": {
+    "width_m": 201.17156856772777,
+    "height_m": 201.17156856772777
+  },
+  "production_config": {
+    "facility_type": "Oil & Gas Refinery",
+    "crude_throughput_bbl_day": 20000,
+    "power_capacity_kw": 15000,
+    "load_factor_pct": 75,
+    "operating_hours_day": 20
+  }
+}

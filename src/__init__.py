@@ -1,0 +1,1 @@
+# Equipment models for CO2 simulation

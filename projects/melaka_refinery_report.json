@@ -1,0 +1,109 @@
+{
+  "project_name": "Melaka Refinery",
+  "generation_date": "2025-11-04T23:22:54.132380",
+  "summary": {
+    "total_equipment": 7,
+    "total_co2_kg": 6137319.0,
+    "by_category": {
+      "Non-Combustion": {
+        "count": 2,
+        "co2_kg": 0.0
+      },
+      "Utility": {
+        "count": 2,
+        "co2_kg": 1116976.0
+      },
+      "Process Heating & Steam": {
+        "count": 1,
+        "co2_kg": 757625.0
+      },
+      "Power Generation": {
+        "count": 2,
+        "co2_kg": 4262718.0
+      }
+    },
+    "by_fuel_type": {
+      "None": {
+        "count": 2,
+        "co2_kg": 0.0
+      },
+      "Electric": {
+        "count": 1,
+        "co2_kg": 1020000.0
+      },
+      "Natural Gas": {
+        "count": 3,
+        "co2_kg": 3509319.0
+      },
+      "Diesel": {
+        "count": 1,
+        "co2_kg": 1608000.0
+      }
+    }
+  },
+  "equipment_details": [
+    {
+      "name": "Crude Tank",
+      "category": "Non-Combustion",
+      "co2_emissions": 0.0,
+      "position": {
+        "x": 180.0,
+        "y": 180.0
+      }
+    },
+    {
+      "name": "Storage Tank",
+      "category": "Non-Combustion",
+      "co2_emissions": 0.0,
+      "position": {
+        "x": 180.0,
+        "y": 150.0
+      }
+    },
+    {
+      "name": "Heater",
+      "category": "Utility",
+      "co2_emissions": 1020000.0,
+      "position": {
+        "x": 180.0,
+        "y": 120.0
+      }
+    },
+    {
+      "name": "Furnace",
+      "category": "Process Heating & Steam",
+      "co2_emissions": 757625.0,
+      "position": {
+        "x": 100.0,
+        "y": 100.0
+      }
+    },
+    {
+      "name": "Diesel Gen-set",
+      "category": "Power Generation",
+      "co2_emissions": 1608000.0,
+      "position": {
+        "x": 100.0,
+        "y": 75.0
+      }
+    },
+    {
+      "name": "Gas Turbine",
+      "category": "Power Generation",
+      "co2_emissions": 2654718.0,
+      "position": {
+        "x": 100.0,
+        "y": 50.0
+      }
+    },
+    {
+      "name": "Glycol Reboiler",
+      "category": "Utility",
+      "co2_emissions": 96976.00000000001,
+      "position": {
+        "x": 100.0,
+        "y": 25.0
+      }
+    }
+  ]
+}

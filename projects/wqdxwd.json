@@ -1,0 +1,81 @@
+{
+  "name": "wqdxwd",
+  "description": "",
+  "facility_size_acres": 1.0,
+  "facility_size_meters": 4047.0,
+  "created_date": "2025-11-06T03:32:06.256629",
+  "last_modified": "2025-11-06T03:39:26.555322",
+  "equipment": [
+    {
+      "equipment": {
+        "id": "22ce92bc-bb2b-4c74-a00b-d745f7c3a56c",
+        "name": "Storage Tank",
+        "category": "Non-Combustion",
+        "power_rate_kw": 0.0,
+        "operation_time_hours": 0.0,
+        "fuel_type": "None",
+        "fuel_consumption_rate": 0.0,
+        "description": "Product storage tank",
+        "icon": "\u25a3"
+      },
+      "x_position": 30.0,
+      "y_position": 30.0
+    },
+    {
+      "equipment": {
+        "id": "8c24b3d9-5dbe-4b51-9162-4f3e6d95e386",
+        "name": "Gas Turbine",
+        "category": "Power Generation",
+        "power_rate_kw": 5000,
+        "operation_time_hours": 8760,
+        "fuel_type": "Natural Gas",
+        "fuel_consumption_rate": 0.0,
+        "description": "High-efficiency gas turbine for power generation",
+        "icon": "\u26a1"
+      },
+      "x_position": 55.0,
+      "y_position": 30.0
+    },
+    {
+      "equipment": {
+        "id": "d87614ee-97d8-4a77-adcc-cf1d2b790037",
+        "name": "Boiler",
+        "category": "Process Heating & Steam",
+        "power_rate_kw": 3000,
+        "operation_time_hours": 6000,
+        "fuel_type": "Natural Gas",
+        "fuel_consumption_rate": 0.0,
+        "description": "Steam generation boiler",
+        "icon": "\u25b2"
+      },
+      "x_position": 7.5,
+      "y_position": 45.0
+    },
+    {
+      "equipment": {
+        "id": "e5a16d1e-d954-4b50-8d6c-d05beb58f02d",
+        "name": "Flare Stack",
+        "category": "Flaring & Destructor",
+        "power_rate_kw": 500,
+        "operation_time_hours": 1000,
+        "fuel_type": "Gas",
+        "fuel_consumption_rate": 0.0,
+        "description": "Emergency flare stack for gas burning",
+        "icon": "\u25b2"
+      },
+      "x_position": 22.5,
+      "y_position": 60.0
+    }
+  ],
+  "canvas_config": {
+    "width_m": 63.61603571427569,
+    "height_m": 63.61603571427569
+  },
+  "production_config": {
+    "facility_type": "Oil & Gas Refinery",
+    "crude_throughput_bbl_day": 50000,
+    "power_capacity_kw": 25000,
+    "load_factor_pct": 75,
+    "operating_hours_day": 20
+  }
+}

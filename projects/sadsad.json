@@ -1,0 +1,34 @@
+{
+  "name": "sadsad",
+  "facility_size_acres": 1.0,
+  "facility_size_meters": 4047.0,
+  "description": "",
+  "canvas_width_m": 63.61603571427569,
+  "canvas_height_m": 63.61603571427569,
+  "production_config": {
+    "facility_type": "Oil & Gas Refinery",
+    "crude_throughput_bbl_day": 50000,
+    "power_capacity_kw": 25000,
+    "load_factor_pct": 75,
+    "operating_hours_day": 20
+  },
+  "production_configured": true,
+  "equipment": [
+    {
+      "equipment": {
+        "id": "d9960cfa-1c5c-4a0a-b80e-0d0085e70014",
+        "name": "Flare Stack",
+        "category": "Flaring & Destructor",
+        "power_rate_kw": 500,
+        "operation_time_hours": 1000,
+        "fuel_type": "Gas",
+        "fuel_consumption_rate": 0.0,
+        "description": "Emergency flare stack for gas burning",
+        "icon": "\u25b2"
+      },
+      "x_position": 30.0,
+      "y_position": 30.0
+    }
+  ],
+  "last_modified": "2025-11-06T03:09:22.281466"
+}

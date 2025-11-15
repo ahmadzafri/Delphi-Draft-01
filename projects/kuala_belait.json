@@ -1,0 +1,29 @@
+{
+  "name": "Kuala Belait",
+  "description": "",
+  "facility_size_acres": 1.0,
+  "facility_size_meters": 4047.0,
+  "created_date": "2025-11-05T00:09:50.340533",
+  "last_modified": "2025-11-05T00:10:29.177631",
+  "equipment": [
+    {
+      "equipment": {
+        "id": "7f715296-22b3-4d95-979f-464f987f4594",
+        "name": "Boiler",
+        "category": "Process Heating & Steam",
+        "power_rate_kw": 3000,
+        "operation_time_hours": 6000,
+        "fuel_type": "Natural Gas",
+        "fuel_consumption_rate": 0.0,
+        "description": "Steam generation boiler",
+        "icon": "\u25b2"
+      },
+      "x_position": 30.0,
+      "y_position": 30.0
+    }
+  ],
+  "canvas_config": {
+    "width_m": 63.61603571427569,
+    "height_m": 63.61603571427569
+  }
+}

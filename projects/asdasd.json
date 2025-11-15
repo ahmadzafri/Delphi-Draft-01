@@ -1,0 +1,36 @@
+{
+  "name": "asdasd",
+  "description": "",
+  "facility_size_acres": 10.0,
+  "facility_size_meters": 40470.0,
+  "created_date": "2025-11-06T02:47:23.235958",
+  "last_modified": "2025-11-06T02:48:00.896188",
+  "equipment": [
+    {
+      "equipment": {
+        "id": "698fadd2-0377-46a3-880b-8e28c20c8290",
+        "name": "Flare Stack",
+        "category": "Flaring & Destructor",
+        "power_rate_kw": 500,
+        "operation_time_hours": 1000,
+        "fuel_type": "Gas",
+        "fuel_consumption_rate": 0.0,
+        "description": "Emergency flare stack for gas burning",
+        "icon": "\u25b2"
+      },
+      "x_position": 110.0,
+      "y_position": 110.0
+    }
+  ],
+  "canvas_config": {
+    "width_m": 201.17156856772777,
+    "height_m": 201.17156856772777
+  },
+  "production_config": {
+    "facility_type": "Oil & Gas Refinery",
+    "crude_throughput_bbl_day": 50000,
+    "power_capacity_kw": 25000,
+    "load_factor_pct": 75,
+    "operating_hours_day": 20
+  }
+}

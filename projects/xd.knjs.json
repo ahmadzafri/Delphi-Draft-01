@@ -1,0 +1,16 @@
+{
+  "name": "xd.knjs",
+  "facility_size_acres": 10.0,
+  "facility_size_meters": 40470.0,
+  "description": "",
+  "canvas_width_m": 201.17156856772777,
+  "canvas_height_m": 201.17156856772777,
+  "production_config": {
+    "facility_type": "Oil & Gas Refinery",
+    "crude_throughput_bbl_day": 50000,
+    "power_capacity_kw": 25000,
+    "load_factor_pct": 75,
+    "operating_hours_day": 24.0
+  },
+  "production_configured": true
+}

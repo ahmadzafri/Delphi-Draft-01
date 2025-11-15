@@ -1,0 +1,49 @@
+{
+  "name": "asc",
+  "facility_size_acres": 1.0,
+  "facility_size_meters": 4047.0,
+  "description": "",
+  "canvas_width_m": 63.61603571427569,
+  "canvas_height_m": 63.61603571427569,
+  "production_config": {
+    "facility_type": "Oil & Gas Refinery",
+    "crude_throughput_bbl_day": 50000,
+    "power_capacity_kw": 25000,
+    "load_factor_pct": 75,
+    "operating_hours_day": 20
+  },
+  "production_configured": true,
+  "equipment": [
+    {
+      "equipment": {
+        "id": "161490a7-f024-43c9-93d3-fa2d0db224e3",
+        "name": "Feed Pump",
+        "category": "Fluid Handling",
+        "power_rate_kw": 500,
+        "operation_time_hours": 7500,
+        "fuel_type": "Electric",
+        "fuel_consumption_rate": 0.0,
+        "description": "Process feed pump system",
+        "icon": "\u25cf"
+      },
+      "x_position": 30.0,
+      "y_position": 30.0
+    },
+    {
+      "equipment": {
+        "id": "b2b986d4-61e9-421e-835e-77092e571f83",
+        "name": "Cooling Pump",
+        "category": "Fluid Handling",
+        "power_rate_kw": 300,
+        "operation_time_hours": 8000,
+        "fuel_type": "Electric",
+        "fuel_consumption_rate": 0.0,
+        "description": "Cooling water circulation pump",
+        "icon": "\u25cf"
+      },
+      "x_position": 43.0,
+      "y_position": 30.0
+    }
+  ],
+  "last_modified": "2025-11-10T02:25:07.421732"
+}

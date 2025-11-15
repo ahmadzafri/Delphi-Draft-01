@@ -1,0 +1,20 @@
+{
+  "name": "qdqdq",
+  "description": "",
+  "facility_size_acres": 1.0,
+  "facility_size_meters": 4047.0,
+  "created_date": "2025-11-06T03:29:51.690251",
+  "last_modified": "2025-11-06T03:30:02.211177",
+  "equipment": [],
+  "canvas_config": {
+    "width_m": 63.61603571427569,
+    "height_m": 63.61603571427569
+  },
+  "production_config": {
+    "facility_type": "Oil & Gas Refinery",
+    "crude_throughput_bbl_day": 50000,
+    "power_capacity_kw": 25000,
+    "load_factor_pct": 75,
+    "operating_hours_day": 20
+  }
+}

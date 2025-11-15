@@ -1,0 +1,389 @@
+{
+  "name": "Melaka Refinery",
+  "facility_size_acres": 10.0,
+  "facility_size_meters": 40470.0,
+  "description": "",
+  "canvas_width_m": 201.17156856772777,
+  "canvas_height_m": 201.17156856772777,
+  "production_config": {
+    "facility_type": "Oil & Gas Refinery",
+    "crude_throughput_bbl_day": 20000,
+    "power_capacity_kw": 15000,
+    "load_factor_pct": 75,
+    "operating_hours_day": 20
+  },
+  "production_configured": true,
+  "equipment": [
+    {
+      "equipment": {
+        "id": "03363237-9d49-47a3-89ff-ac6f0f7ace89",
+        "name": "Crude Tank",
+        "category": "Non-Combustion",
+        "power_rate_kw": 0.0,
+        "operation_time_hours": 0.0,
+        "fuel_type": "None",
+        "fuel_consumption_rate": 0.0,
+        "description": "Crude oil storage tank",
+        "icon": "\u25a3"
+      },
+      "x_position": 180.0,
+      "y_position": 190.0
+    },
+    {
+      "equipment": {
+        "id": "4be8f848-d131-46d9-bf5f-a0982dd47613",
+        "name": "Crude Tank",
+        "category": "Non-Combustion",
+        "power_rate_kw": 0.0,
+        "operation_time_hours": 0.0,
+        "fuel_type": "None",
+        "fuel_consumption_rate": 0.0,
+        "description": "Crude oil storage tank",
+        "icon": "\u25a3"
+      },
+      "x_position": 180.0,
+      "y_position": 160.0
+    },
+    {
+      "equipment": {
+        "id": "891d4c8f-964f-4137-a784-07660bb0ceed",
+        "name": "Glycol Reboiler",
+        "category": "Utility",
+        "power_rate_kw": 200,
+        "operation_time_hours": 8000,
+        "fuel_type": "Natural Gas",
+        "fuel_consumption_rate": 0.0,
+        "description": "Glycol regeneration reboiler",
+        "icon": "\u25c6"
+      },
+      "x_position": 180.0,
+      "y_position": 130.0
+    },
+    {
+      "equipment": {
+        "id": "21ed249a-5ff4-4454-998a-af8295c4e524",
+        "name": "Glycol Reboiler",
+        "category": "Utility",
+        "power_rate_kw": 200,
+        "operation_time_hours": 8000,
+        "fuel_type": "Natural Gas",
+        "fuel_consumption_rate": 0.0,
+        "description": "Glycol regeneration reboiler",
+        "icon": "\u25c6"
+      },
+      "x_position": 165.0,
+      "y_position": 130.0
+    },
+    {
+      "equipment": {
+        "id": "25fbfaf5-1eb7-4e3d-b1a8-f5667a3ff67a",
+        "name": "Process Heater",
+        "category": "Process Heating & Steam",
+        "power_rate_kw": 1500,
+        "operation_time_hours": 7000,
+        "fuel_type": "Natural Gas",
+        "fuel_consumption_rate": 0.0,
+        "description": "Process heating equipment",
+        "icon": "\u25b2"
+      },
+      "x_position": 180.0,
+      "y_position": 100.0
+    },
+    {
+      "equipment": {
+        "id": "a4cf433a-3796-47fd-9915-295b44f1a254",
+        "name": "Boiler",
+        "category": "Process Heating & Steam",
+        "power_rate_kw": 3000,
+        "operation_time_hours": 6000,
+        "fuel_type": "Natural Gas",
+        "fuel_consumption_rate": 0.0,
+        "description": "Steam generation boiler",
+        "icon": "\u25b2"
+      },
+      "x_position": 165.0,
+      "y_position": 100.0
+    },
+    {
+      "equipment": {
+        "id": "e1a1ecea-7b93-4007-b659-8c641ecd5404",
+        "name": "Gas Engine Compressor",
+        "category": "Drivers & Machinery",
+        "power_rate_kw": 1500,
+        "operation_time_hours": 8000,
+        "fuel_type": "Natural Gas",
+        "fuel_consumption_rate": 0.0,
+        "description": "Gas-driven compressor",
+        "icon": "\u25cf"
+      },
+      "x_position": 180.0,
+      "y_position": 65.0
+    },
+    {
+      "equipment": {
+        "id": "974edbc8-0d0e-453d-9ef1-c0310cad170a",
+        "name": "Pump Engine Drive",
+        "category": "Drivers & Machinery",
+        "power_rate_kw": 750,
+        "operation_time_hours": 6000,
+        "fuel_type": "Diesel",
+        "fuel_consumption_rate": 0.0,
+        "description": "Engine-driven pump system",
+        "icon": "\u25cf"
+      },
+      "x_position": 160.0,
+      "y_position": 65.0
+    },
+    {
+      "equipment": {
+        "id": "5bfb3aa7-792d-4b37-9ca9-90e0a721c568",
+        "name": "Chiller",
+        "category": "Utility",
+        "power_rate_kw": 500,
+        "operation_time_hours": 6000,
+        "fuel_type": "Electric",
+        "fuel_consumption_rate": 0.0,
+        "description": "Cooling system chiller",
+        "icon": "\u25c7"
+      },
+      "x_position": 180.0,
+      "y_position": 35.0
+    },
+    {
+      "equipment": {
+        "id": "739e971e-9bff-4263-91c4-54cc8fd6b62f",
+        "name": "Chiller",
+        "category": "Utility",
+        "power_rate_kw": 500,
+        "operation_time_hours": 6000,
+        "fuel_type": "Electric",
+        "fuel_consumption_rate": 0.0,
+        "description": "Cooling system chiller",
+        "icon": "\u25c7"
+      },
+      "x_position": 160.0,
+      "y_position": 35.0
+    },
+    {
+      "equipment": {
+        "id": "cf4f2ead-03bb-4aa0-bd8d-22a664c1e6ca",
+        "name": "Flare Stack",
+        "category": "Flaring & Destructor",
+        "power_rate_kw": 500,
+        "operation_time_hours": 1000,
+        "fuel_type": "Gas",
+        "fuel_consumption_rate": 0.0,
+        "description": "Emergency flare stack for gas burning",
+        "icon": "\u25b2"
+      },
+      "x_position": 140.0,
+      "y_position": 100.0
+    },
+    {
+      "equipment": {
+        "id": "08259e59-a4ed-49f5-b27c-f9d24b5ed0b1",
+        "name": "Flare Stack",
+        "category": "Flaring & Destructor",
+        "power_rate_kw": 500,
+        "operation_time_hours": 1000,
+        "fuel_type": "Gas",
+        "fuel_consumption_rate": 0.0,
+        "description": "Emergency flare stack for gas burning",
+        "icon": "\u25b2"
+      },
+      "x_position": 140.0,
+      "y_position": 65.0
+    },
+    {
+      "equipment": {
+        "id": "29b981e1-f439-4d97-aef5-066aadb1ab67",
+        "name": "Thermal Oxidizer",
+        "category": "Flaring & Destructor",
+        "power_rate_kw": 800,
+        "operation_time_hours": 8000,
+        "fuel_type": "Natural Gas",
+        "fuel_consumption_rate": 0.0,
+        "description": "Thermal oxidizer for waste gas treatment",
+        "icon": "\u25c6"
+      },
+      "x_position": 110.0,
+      "y_position": 110.0
+    },
+    {
+      "equipment": {
+        "id": "2f12e684-48fb-4e17-92b0-5089fbd7f707",
+        "name": "Thermal Oxidizer",
+        "category": "Flaring & Destructor",
+        "power_rate_kw": 800,
+        "operation_time_hours": 8000,
+        "fuel_type": "Natural Gas",
+        "fuel_consumption_rate": 0.0,
+        "description": "Thermal oxidizer for waste gas treatment",
+        "icon": "\u25c6"
+      },
+      "x_position": 110.0,
+      "y_position": 80.0
+    },
+    {
+      "equipment": {
+        "id": "62195c57-dc63-49a4-9883-3419d2be90aa",
+        "name": "Incinerator",
+        "category": "Flaring & Destructor",
+        "power_rate_kw": 1200,
+        "operation_time_hours": 4000,
+        "fuel_type": "Diesel",
+        "fuel_consumption_rate": 0.0,
+        "description": "Waste incinerator",
+        "icon": "\u25b2"
+      },
+      "x_position": 110.0,
+      "y_position": 40.0
+    },
+    {
+      "equipment": {
+        "id": "2777a113-7793-48e5-920e-40c4f8c2bc3d",
+        "name": "Gas Turbine",
+        "category": "Power Generation",
+        "power_rate_kw": 5000,
+        "operation_time_hours": 8760,
+        "fuel_type": "Natural Gas",
+        "fuel_consumption_rate": 0.0,
+        "description": "High-efficiency gas turbine for power generation",
+        "icon": "\u26a1"
+      },
+      "x_position": 110.0,
+      "y_position": 140.0
+    },
+    {
+      "equipment": {
+        "id": "cddbec7a-c5cc-4373-80a7-a088f9aa5a2c",
+        "name": "Boiler",
+        "category": "Process Heating & Steam",
+        "power_rate_kw": 3000,
+        "operation_time_hours": 6000,
+        "fuel_type": "Natural Gas",
+        "fuel_consumption_rate": 0.0,
+        "description": "Steam generation boiler",
+        "icon": "\u25b2"
+      },
+      "x_position": 85.0,
+      "y_position": 110.0
+    },
+    {
+      "equipment": {
+        "id": "be820732-3a80-4054-b880-b0cfbfc8e779",
+        "name": "Gas Turbine",
+        "category": "Power Generation",
+        "power_rate_kw": 5000,
+        "operation_time_hours": 8760,
+        "fuel_type": "Natural Gas",
+        "fuel_consumption_rate": 0.0,
+        "description": "High-efficiency gas turbine for power generation",
+        "icon": "\u26a1"
+      },
+      "x_position": 110.0,
+      "y_position": 165.0
+    },
+    {
+      "equipment": {
+        "id": "1fd4d220-8ee5-4e35-8139-021a97c505a2",
+        "name": "Boiler",
+        "category": "Process Heating & Steam",
+        "power_rate_kw": 3000.0,
+        "operation_time_hours": 6000.000000000001,
+        "fuel_type": "Natural Gas",
+        "fuel_consumption_rate": 100.0,
+        "description": "Steam generation boiler",
+        "icon": "\u25b2"
+      },
+      "x_position": 190.0,
+      "y_position": 110.0
+    },
+    {
+      "equipment": {
+        "id": "8faf524f-3a98-4dc3-acc1-9c62eae5ed27",
+        "name": "Atmospheric Distillation Column",
+        "category": "Process Heating & Steam",
+        "power_rate_kw": 3500.0,
+        "operation_time_hours": 8500.0,
+        "fuel_type": "Natural Gas",
+        "fuel_consumption_rate": 100.0,
+        "description": "Atmospheric distillation column for crude oil refining",
+        "icon": "\u25b2"
+      },
+      "x_position": 123.0,
+      "y_position": 110.0
+    },
+    {
+      "equipment": {
+        "id": "dfb345b9-328b-49a5-99f8-bc5656a80aa6",
+        "name": "Atmospheric Distillation Column",
+        "category": "Process Heating & Steam",
+        "power_rate_kw": 3500.0,
+        "operation_time_hours": 8500.0,
+        "fuel_type": "Natural Gas",
+        "fuel_consumption_rate": 100.0,
+        "description": "Atmospheric distillation column for crude oil refining",
+        "icon": "\u25b2"
+      },
+      "x_position": 50.0,
+      "y_position": 110.0
+    }
+  ],
+  "last_modified": "2025-11-13T11:24:02.560935",
+  "summary": {
+    "total_equipment": 21,
+    "total_co2_kg": 197792.39567230726,
+    "total_crude_processing_bbl_day": 8586.498652366003,
+    "total_crude_processing_tonnes_year": 426525.73405762884,
+    "facilities_efficiency": 0.1693770545379314,
+    "by_category": {
+      "Non-Combustion": {
+        "count": 2,
+        "co2_kg": 0.0
+      },
+      "Utility": {
+        "count": 4,
+        "co2_kg": 644.0913242009132
+      },
+      "Process Heating & Steam": {
+        "count": 6,
+        "co2_kg": 22022.240128928286
+      },
+      "Drivers & Machinery": {
+        "count": 2,
+        "co2_kg": 28272.32876712329
+      },
+      "Flaring & Destructor": {
+        "count": 5,
+        "co2_kg": 1389.7354520547945
+      },
+      "Power Generation": {
+        "count": 2,
+        "co2_kg": 145464.0
+      }
+    },
+    "by_fuel_type": {
+      "None": {
+        "count": 2,
+        "co2_kg": 0.0
+      },
+      "Natural Gas": {
+        "count": 13,
+        "co2_kg": 187730.83556271825
+      },
+      "Diesel": {
+        "count": 2,
+        "co2_kg": 9251.506849315072
+      },
+      "Electric": {
+        "count": 2,
+        "co2_kg": 0.0
+      },
+      "Gas": {
+        "count": 2,
+        "co2_kg": 810.0532602739726
+      }
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Kota Bharu Refinery",
+  "description": "",
+  "facility_size_acres": 1.0,
+  "facility_size_meters": 4047.0,
+  "created_date": "2025-11-02T19:23:44.810587",
+  "last_modified": "2025-11-02T19:23:44.810598",
+  "equipment": [],
+  "canvas_config": {
+    "width_m": 63.61603571427569,
+    "height_m": 63.61603571427569
+  }
+}
